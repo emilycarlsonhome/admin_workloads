@@ -5,5 +5,5 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: Local K8s Cloud Provider
-  namespace: emily
+  namespace: emily2
   releaseName: release-${infra.kubernetes.infraId}
